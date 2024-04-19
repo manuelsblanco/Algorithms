@@ -21,13 +21,14 @@
 def catAndMouse(x, y, z):
     distance_a = abs(x - z)
     distance_b = abs(y - z)
-    
+
     if distance_a < distance_b:
         return "Cat A"
     elif distance_a > distance_b:
         return "Cat B"
     else:
         return "Mouse C"
+
 
 # Example usage:
 print(catAndMouse(1, 2, 3))  # Output should be "Cat B"
